@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-bg{
+  background-color: #00205C;
+}
+
+.main-color-font{
+  color: #00205C;
+}
+
+/* TOPBAR */
+.topbar{
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    padding: 0 2%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-bar{
+  position: fixed;
+  right: 0;
+  width: 50vh;
+  bottom: 0;
+  height: 100%;
+  top: 0;
+  background-color: #00205C;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  z-index: 999999;
+
+}
+
+.right-bar ul{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.right-bar ul li a{
+  color: #fff;
+  text-align: right;
+}
+
+/* BURGER */
+.i-burger2{
+  background: none;
+  border: none;
+  font-size: 1.8em;
+  display: none;
+  cursor: pointer;
+  color: #00205C;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding-top: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #00205C;
+    font-weight: 600;
+}
+
+/* ul li a.router-link-exact-active {
+    color: #42b983;
+  } */
+
+.btn-login{
+    background-color: #00205C;
+    color: #fff;
+    padding: 5px 16px;
+    border-radius: 16px;
+}
+
+/* CAROUSEL */
+.row.carousel-wrapp{
+    margin-top: 100px;
+}
+
+.content-carousel {
+    width: 100%;
+    height: 80vh;
+    color: #Fff;
+    padding: 80px 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+  }
+  
+  /* .left-content {
+    font-size: 1.3em;
+    max-width: 700px;
+  } */
+  
+  .left-content p {
+    margin-top: 20px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color: #00205C;
+    border-radius: 50%;
+  }
+
+  .wrapper{
+    padding: 0 8%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* BERITA */
+.berita-kanan{
+    border: 1px solid rgba(0, 0, 0, .2);
+    position: relative;
+}
+
+.berita-kanan .card-bt{
+    margin: 100px 20px 0;
+}
+
+.berita-kanan .hd-bt{
+  position: absolute;
+  left: 0;
+  right: 0;
+    display: block;
+    background-color: #7DCC85;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 700; */
+    font-size: 1.5em;
+}
+
+
+.berita-kiri{
+    padding: 20px;
+}
+
+.berita-kiri .berita-utama{
+    margin-bottom: 40px;
+}
+
+.berita-kiri .bu-c{
+    gap:20px
+}
+
+.berita-kiri .bu-c span{
+    text-align: justify;
+}
+
+.berita-kiri .bu-c img{
+    max-height: 300px;
+}
+
+/* INFO GIZI */
+.wrapp-IG h3{
+  max-width: 280px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.tb-gizi{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.tb-gizi th{
+  color: #fff;
+}
+
+.tb-gizi td,
+.tb-gizi th{
+  padding: 6px 12px;
+  border: 1px solid rgba(0, 0, 0, .4);
+  
+}
+
+/* FAQ */
+.wrapp-faq{
+  font-size: 1em;
+}
+
+.wrapp-faq h3 {
+  max-width: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.wrapp-faq a{
+  text-decoration: none;
+}
+
+.sub-judul {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #00205C;
+  display: block;
+  margin-bottom: -15px;
+}
+
+.wrapp-ask a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #111;
+}
+
+.wrapp-ask a:hover{
+  color: inherit;
+}
+
+/* FOOTER */
+.footer{
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  background-color: #00205C;
+  color: #fff;
+  padding: 40px 5%;
+}
+
+.f-kiri{
+  flex:1;
+}
+
+.f-kanan{
+  flex: .3;
+  min-width: 300px;
+  line-height: 2.5em;
+}
+
+
+/* BREAKPOINT */
+@media (max-width: 991.98px) { 
+  .topbar.nb-md ul{
+    display: none;
+  }
+  .topbar.nb-md .i-burger2{
+    display: block;
+  }
+  .right-bar{
+    display: block;
+  }
+
+ }
+

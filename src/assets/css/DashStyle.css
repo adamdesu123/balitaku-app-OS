@@ -1,0 +1,657 @@
+a {
+    text-decoration: none;
+}
+
+.bs-wrapp {
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pop-up-fixed{
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up-fixed .pop-up-unduh {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.pop-up-unduh h3 {
+    color: #00205C;
+}
+
+.pop-up-unduh .btn-ok {
+    background-color: #28A745;
+    color: #fff;
+    font-weight: 600;
+}
+
+.pop-up-unduh .btn:hover {
+    background-color: #28A745;
+    color: #fff;
+}
+
+.pop-up2{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+}
+
+.wrapp-pop-up2{
+    margin: auto;
+    background-color: #fff;
+    width: 100%;
+    max-width: 630px;
+    height: auto;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.wrapp-pop-up2 .btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.h-pop-up2{
+    background-color: #EBF5EB;
+    border: 1px solid #80E070;
+}
+
+.page-content .set-head {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page-content .set-head h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #00205C;
+}
+
+.page-content .set-head .breadcrumb{
+    padding-right: 2%;
+}
+
+.page-content .set-head .breadcrumb .to-bf {
+    color: #8A8888;
+}
+
+.page-content .set-head .breadcrumb .to-ds {
+    color: #00205C;
+}
+
+.btn-kec {
+    background-color: #fff;
+    border: 1px solid #007BFF;
+    color: #00205C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 12px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    height: 40px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    line-height: 40px;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    z-index: 9999;
+    color: #222;
+}
+
+/* Button */
+.wrapp-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-c {
+    border: none;
+    padding: 4px 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #fff;
+}
+
+.btn-c.unduh {
+    background-color: #28A745;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.btn-c.unduh:hover {
+    background-color: #248f3d;
+}
+
+.btn-c.b-import {
+    margin-right: 10px;
+    background-color: #1591A5;
+}
+
+.btn-c.simpan {
+    border: 1px solid #00205C;
+    color: #00205C;
+    background: #fff;
+    padding: 6px 36px;
+    font-weight: bold;
+}
+
+.dropdown-menu li a{
+    display: block;
+}
+
+/* INPUT */
+.input-field {
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, .5);
+    font-weight: 600;
+    width: 100%;
+}
+
+.required {
+    color: #FF0000;
+}
+
+table thead {
+    background-color: #00205C;
+    color: #fff
+}
+
+/* HOME */
+.box-jumlah {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-top: 40px;
+}
+
+.box-jumlah a {
+    color: #222;
+    flex: 1;
+}
+
+.box-jumlah a:hover {
+    color: #222;
+}
+
+.box-jumlah .box-item {
+    margin-bottom: 2%;
+    display: flex;
+    min-width: 160px;
+    height: 90px;
+    gap: 10%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.box-jumlah .box-item.b-anak {
+    border-bottom: 4px solid #DC3545;
+}
+
+.box-jumlah .box-item.b-kader {
+    border-bottom: 4px solid #006EE5;
+}
+
+.box-jumlah .box-item.b-nakes {
+    border-bottom: 4px solid #473E97;
+}
+
+.box-jumlah .box-item.b-puskesmas {
+    border-bottom: 4px solid #1894A5;
+}
+
+.box-jumlah .box-item.b-posyandu {
+    border-bottom: 4px solid #616970;
+}
+
+.box-jumlah .box-item .detail-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-jumlah .box-item .detail-box span {
+    display: block;
+    font-weight: 600;
+}
+
+.box-jumlah .img-box-jumlah {
+    height: 40px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* Beranda Grafik */
+.i-grafik {
+    margin: 2% 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.i-grafik .s-grafik {
+    padding: 20px;
+    flex: 1;
+    min-width: 50vh;
+    width: 90wh;
+    height: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.i-grafik .s-grafik.g-persentasi {
+    max-width: inherit;
+}
+
+.i-grafik h3,
+.carousel-item h3 {
+    margin: 20px 0;
+    margin-bottom: 40px;
+    color: #00205C;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.i-grafik.g-4 {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.s-grafik.g-berat-1 {
+    max-width: inherit;
+}
+
+.s-grafik.g-berat-1 .grafik {
+    position: relative;
+    width: 70vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.i-grafik.g-5 {
+    height: 400px;
+}
+
+.i-grafik .s-grafik.g-stunting-2 .grafik,
+.i-grafik .s-grafik.g-pengunjung-2 .grafik {
+    /* margin-top: -60px; */
+    width: 80%;
+    margin: -50px auto 0;
+}
+
+.carousel-item h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* DATA MASTER */
+.wrapp-datamaster form{
+    color: #222;
+    font-weight: bold;
+    width: 95%;
+    margin: auto;
+}
+
+.wrapp-datamaster form .inp p{
+    font-weight: 500;
+    color: rgba(0, 0, 0, .4);
+}
+
+.wrapp-datamaster .t-alamat{
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+
+.wrapp-datamaster .t-alamat:before{
+    content:"";
+    flex: .1;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin: auto
+}
+
+.wrapp-datamaster .t-alamat:after{
+    content:"";
+    flex: 2;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin: auto
+}
+
+/* Jadwal */
+/* Jadwal Kegiatan */
+.wrapp-jadwalKegiatan{
+    display: flex;
+    gap: 5%;
+}
+
+.wrapp-jadwalKegiatan .left-content{
+    height: 350px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.wrapp-jadwalKegiatan .right-content{
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-content .loc-item{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 2px solid rgba(0, 0, 0, .2);
+}
+
+.right-content .loc-item .l-icon{
+    text-align: center;
+    min-width: 100px;
+    padding: 20px;
+    background-color: #00205C;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.right-content .loc-item .l-icon.bg-sub{
+    background-color: #39AF4C;
+}
+
+.right-content .loc-item .l-icon img{
+    height: 32px;
+}
+
+.right-content .loc-item .t-loc{
+    padding:0 3%;
+    width: 100%;
+    gap: 20px;
+
+}
+
+/* Publikasi Banner */
+.wrapp-banner{
+    width: 100%;
+    min-height: 500px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu-banner,
+.menu-dataanak{
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin-bottom: -10px;
+}
+
+.menu-banner li,
+.menu-dataanak li{
+    flex: 1;
+}
+
+.menu-banner li a,
+.menu-dataanak li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0, .1);   
+    color: rgba(0, 0, 0, .6);
+}
+.menu-banner li a:active{
+    font-weight: 600;
+    color: #333;
+}
+
+.wrapp-banner .wrapp-btn{
+    padding-top: 10px;
+    justify-content: flex-end;
+}
+
+.wrapp-banner .wrapp-btn a{
+    text-decoration: none;
+}
+
+.wrapp-banner-card{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    row-gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.wrapp-banner-card .card-banner{
+    flex: 1;
+    background-color: #fff;
+    min-width: 220px;
+    /* max-width: 250px; */
+    padding: 20px 15px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .4);
+    border-radius:6px ;
+    -webkit-border-radius:6px ;
+    -moz-border-radius:6px ;
+    -ms-border-radius:6px ;
+    -o-border-radius:6px ;
+    position: relative;
+}
+
+.wrapp-banner-card .card-banner .menu-vertical{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.wrapp-banner-card .card-banner .dropdown-menu{
+    width: 80%;
+    
+}
+
+.wrapp-banner-card .card-banner .dropdown-menu ul{
+    margin-top: 10px;
+}
+
+.wrapp-banner-card .card-banner .dropdown-menu ul li a{
+    display: block;
+    text-align: center;
+}
+
+.wrapp-banner-card .card-banner span{
+    color: rgba(0, 0, 0, .5);
+}
+
+.wrapp-banner-card .card-banner p{
+    font-weight: 600;
+}
+
+.wrapp-banner-card .card-banner .drop-menuVertical{
+    background-color: #fff;
+    width: 100px;
+}
+
+.wrapp-banner-card .card-banner .drop-menuVertical a{
+    text-decoration: none;
+    color: #00205C;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+/* Tambah Banner */
+.wrapp-banner.t-Banner{
+    border-top: 3px solid #00205C;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    gap:20px;
+    padding-top: 32px;
+}
+
+.wrapp-banner.t-Banner .inp-img{
+    flex: 2;
+    height: 400px;
+    background-color: #eee;
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapp-banner.t-Banner .inp-img .input-img{
+    width: 100%;
+    height: 30px;
+    display: block;
+    background-color: #fff;
+}
+
+.wrapp-banner.t-Banner .inp-content{
+    flex: .9;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between;    
+}
+
+.wrapp-banner.t-Banner .inp-content .inp-tgl{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    padding: 20px;
+    box-sizing: border-box;
+    color: #00205C;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.wrapp-banner.t-Banner .inp-content .inp-tgl .inp-tgl-p{
+    margin-bottom: 10px;
+}
+
+.wrapp-banner.t-Banner .inp-content .wrapp-btn-t-b{
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.wrapp-banner.t-Banner .inp-content .wrapp-btn-t-b .btn-c.t-b{
+    padding: 8px;
+    background-color: #00205C;
+}
+.wrapp-banner.t-Banner .inp-content .wrapp-btn-t-b .btn-c.b-b{
+    text-decoration: none;
+    border: 1px solid #00205C;
+    color: #00205C;
+}
+
+/* Pengaturan Sistem */
+.wrapp-pengaturan{
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wrapp-pengaturan span{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.wrapp-p{
+    background-color: #fff;
+    border-radius: 6px;
+    border-top: 3px solid #00205C;
+    padding: 20px 20px 40px;
+    min-height: 550px;
+  }
