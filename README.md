@@ -21,4 +21,12 @@ npm run lint
 ```
 
 ### Customize configuration
+```
 See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+
+### ATTENTION
+```
+Silahkan Customize Sesukanya untuk tampilan beserta tambah data nya bisa menggunakan data JSON dengan memanggil API
+```
+
